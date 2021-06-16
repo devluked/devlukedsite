@@ -1,0 +1,53 @@
+.about-body {
+	height: 100vh;
+	overflow: hidden;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #0f0f0f;
+	align-items: center;
+}
+
+#about-me-txt {
+	display: flex;
+	font-size: clamp(2vw, 2vh, 5rem);
+	padding-right: clamp(40vw, 40vh, 100rem);
+	color: #ff613d;
+	text-decoration: underline;
+	text-decoration-color: #ff613d;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.about-body h1 {
+	margin-top: 0;
+	font-size: clamp(2vw, 2vh, 5rem);
+	color: white;
+}
+
+.about-body h5 {
+	margin-top: 2px;
+}
+
+.about-left {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+
+	width: 50%;
+}
+
+.about-right {
+	padding-bottom: 20px;
+	display: flex;
+	width: 50%;
+}

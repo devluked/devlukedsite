@@ -1,0 +1,47 @@
+.body-display {
+	height: 45vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.body-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.body-text h1 {
+	font-size: clamp(4vw, 4vh, 5rem);
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	margin-bottom: 0px;
+}
+
+.body-img img {
+	height: clamp(40vw, 40vh, 60rem);
+}
+
+#luke-text {
+	margin-top: clamp(5vw, 5vh, 5rem);
+}
+
+#duggan-text {
+	margin-top: 0px;
+}
+
+.more-text a {
+	color: #ff613d;
+}
+
+.more-text a:hover {
+	color: white;
+}
+
+#front-end-text {
+	margin-top: clamp(5vw, 5vh, 5rem);
+	font-size: clamp(2vw, 2vh, 2rem);
+	color: #ff613d;
+}
+
+.more-text {
+}

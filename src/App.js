@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './navbar.js'
+import BodyDisplay from './landing/bodydisplay';
+import EchoRadio from  './echoradio/echoradio.js'
+import Contact from './contact.js'
+import About from './about/about.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="top-content">
+        <NavBar/>
+        <BodyDisplay/>
+      </div>
+      <div className="about-content">
+        <About/>
+      </div>
+      <div className="project-content">
+        <EchoRadio/>
+      </div>
+      <div className="contact-content">
+        <Contact/>
+      </div>
+
     </div>
   );
 }
