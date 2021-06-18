@@ -3,23 +3,23 @@ import './App.css';
 import NavBar from './navbar.js'
 import BodyDisplay from './landing/bodydisplay';
 import EchoRadio from  './echoradio/echoradio.js'
-import Contact from './contact.js'
+import Contact from './contact/contact.js'
 import About from './about/about.js'
 
 function App() {
   return (
     <div className="App">
-      <div className="top-content">
+      <div id="top" className="top-content">
         <NavBar/>
         <BodyDisplay/>
       </div>
-      <div className="about-content">
+      <div id="about" className="about-content">
         <About/>
       </div>
-      <div className="project-content">
+      <div id="projects" className="project-content">
         <EchoRadio/>
       </div>
-      <div className="contact-content">
+      <div id="contact" className="contact-content">
         <Contact/>
       </div>
 

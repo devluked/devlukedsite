@@ -1,0 +1,120 @@
+.about-body {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	background-color: #1a1a1a;
+	padding-bottom: 25p;
+}
+
+h1 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#about-me-top-txt {
+	display: flex;
+	font-size: clamp(3vw, 3vh, 2rem);
+	padding-right: clamp(6.5vw, 6.5vh, 3rem);
+	color: #ff4a3d;
+}
+
+#education-bottom-txt {
+	display: flex;
+	font-size: clamp(3vw, 3vh, 2rem);
+	padding-right: clamp(18vw, 1vh, 5rem);
+	color: #ff4a3d;
+}
+
+#skills-bottom-text {
+	display: flex;
+	font-size: clamp(3vw, 3vh, 2rem);
+	padding-right: clamp(11vw, 11vh, 5rem);
+	color: #ff4a3d;
+}
+
+.junk {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-text h1 {
+	padding-left: clamp(1.5vw, 1.5vh, 4rem);
+}
+
+#desc-text {
+	color: white;
+	font-size: clamp(2vw, 2vh, 4rem);
+}
+
+.top-left,
+.top-right,
+.top-right-2 {
+	display: flex;
+
+	width: 50%;
+	justify-content: center;
+}
+
+.top-right-2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.education-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding-right: clamp(6vw, 6vh, 5rem);
+}
+
+.education-text h1 {
+	color: white;
+	font-size: clamp(1.5vw, 1.5vh, 4rem);
+}
+
+.about-body h5 {
+	color: white;
+	font-weight: 10;
+	font-size: clamp(0.85vw, 0.85vh, 4rem);
+	margin-top: 2px;
+}
+
+.right-container-2 {
+	padding-right: clamp(6vw, 6vh, 4rem);
+}
+
+.right-container-2 h1 {
+	text-align: right;
+}
+
+.left-container {
+	padding-left: clamp(3.75vw, 3.75vh, 4rem);
+}
+
+.left-container-3 {
+	padding-left: clamp(2.2vw, 2.2vh, 4rem);
+}
+
+.right-container {
+	padding-left: clamp(13.25vw, 13.25vh, 4rem);
+}
+
+.left-container,
+.left-container-3,
+.right-container,
+.right-container-2 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}

@@ -3,6 +3,10 @@ body {
 	width: 100%;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
 	display: flex;
 	flex-direction: column;
@@ -10,16 +14,21 @@ body {
 	width: 100%;
 }
 
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .top-content {
-	background: #1c1c1c;
-	height: clamp(40vh, 40vw, 100rem);
+	background: #222222;
 }
 
 .about-content {
-	height: 100vh;
+	position: relative;
+	background: #1f1f1f;
 }
 
 .project-content {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	background-color: #1c1c1c;
